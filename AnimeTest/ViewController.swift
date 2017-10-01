@@ -17,6 +17,14 @@ class ViewController: UIViewController {
         let viewController = SecondViewController.instantiate(sender.center)
         present(viewController, animated: true, completion: nil)
     }
+    
+    @IBAction func tesrTapped(_ sender: UIButton) {
+        let viewController = SourceViewController()
+        present(viewController, animated: true, completion: nil)
+
+        
+    }
+
 }
 
 

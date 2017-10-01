@@ -17,6 +17,14 @@
 		C270B3F01F81AFAC00483C5F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270B3EF1F81AFAC00483C5F /* SecondViewController.swift */; };
 		C270B3F21F81AFDD00483C5F /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270B3F11F81AFDD00483C5F /* Animator.swift */; };
 		C270B3F41F81B01A00483C5F /* Transitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270B3F31F81B01A00483C5F /* Transitioner.swift */; };
+		C270B3F61F81B18F00483C5F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270B3F51F81B18F00483C5F /* NavigationController.swift */; };
+		C270B3F81F81B1B600483C5F /* CustomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270B3F71F81B1B600483C5F /* CustomAnimatedTransitioning.swift */; };
+		C270B3FA1F81B1E900483C5F /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270B3F91F81B1E900483C5F /* SourceViewController.swift */; };
+		C270B3FC1F81B31600483C5F /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270B3FB1F81B31600483C5F /* DestinationViewController.swift */; };
+		C270B3FE1F81B33400483C5F /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270B3FD1F81B33400483C5F /* DefaultViewController.swift */; };
+		C270B4021F81B46A00483C5F /* SourceViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C270B3FF1F81B46A00483C5F /* SourceViewController.storyboard */; };
+		C270B4031F81B46A00483C5F /* DestinationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C270B4001F81B46A00483C5F /* DestinationViewController.storyboard */; };
+		C270B4041F81B46A00483C5F /* DefaultViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C270B4011F81B46A00483C5F /* DefaultViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		C270B3EF1F81AFAC00483C5F /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C270B3F11F81AFDD00483C5F /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		C270B3F31F81B01A00483C5F /* Transitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transitioner.swift; sourceTree = "<group>"; };
+		C270B3F51F81B18F00483C5F /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		C270B3F71F81B1B600483C5F /* CustomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		C270B3F91F81B1E900483C5F /* SourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		C270B3FB1F81B31600483C5F /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		C270B3FD1F81B33400483C5F /* DefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
+		C270B3FF1F81B46A00483C5F /* SourceViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SourceViewController.storyboard; sourceTree = "<group>"; };
+		C270B4001F81B46A00483C5F /* DestinationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DestinationViewController.storyboard; sourceTree = "<group>"; };
+		C270B4011F81B46A00483C5F /* DefaultViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DefaultViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +128,14 @@
 				C270B3EF1F81AFAC00483C5F /* SecondViewController.swift */,
 				C270B3F11F81AFDD00483C5F /* Animator.swift */,
 				C270B3F31F81B01A00483C5F /* Transitioner.swift */,
+				C270B3F51F81B18F00483C5F /* NavigationController.swift */,
+				C270B3F71F81B1B600483C5F /* CustomAnimatedTransitioning.swift */,
+				C270B3F91F81B1E900483C5F /* SourceViewController.swift */,
+				C270B3FB1F81B31600483C5F /* DestinationViewController.swift */,
+				C270B3FD1F81B33400483C5F /* DefaultViewController.swift */,
+				C270B3FF1F81B46A00483C5F /* SourceViewController.storyboard */,
+				C270B4001F81B46A00483C5F /* DestinationViewController.storyboard */,
+				C270B4011F81B46A00483C5F /* DefaultViewController.storyboard */,
 			);
 			path = AnimeTest;
 			sourceTree = "<group>";
@@ -245,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C270B3CA1F81AF2400483C5F /* LaunchScreen.storyboard in Resources */,
+				C270B4031F81B46A00483C5F /* DestinationViewController.storyboard in Resources */,
 				C270B3C71F81AF2400483C5F /* Assets.xcassets in Resources */,
+				C270B4021F81B46A00483C5F /* SourceViewController.storyboard in Resources */,
+				C270B4041F81B46A00483C5F /* DefaultViewController.storyboard in Resources */,
 				C270B3EE1F81AF6500483C5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,10 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C270B3FE1F81B33400483C5F /* DefaultViewController.swift in Sources */,
 				C270B3F21F81AFDD00483C5F /* Animator.swift in Sources */,
+				C270B3F61F81B18F00483C5F /* NavigationController.swift in Sources */,
 				C270B3F01F81AFAC00483C5F /* SecondViewController.swift in Sources */,
+				C270B3F81F81B1B600483C5F /* CustomAnimatedTransitioning.swift in Sources */,
 				C270B3C21F81AF2400483C5F /* ViewController.swift in Sources */,
+				C270B3FA1F81B1E900483C5F /* SourceViewController.swift in Sources */,
 				C270B3F41F81B01A00483C5F /* Transitioner.swift in Sources */,
+				C270B3FC1F81B31600483C5F /* DestinationViewController.swift in Sources */,
 				C270B3C01F81AF2400483C5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +552,7 @@
 				C270B3E61F81AF2400483C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C270B3E71F81AF2400483C5F /* Build configuration list for PBXNativeTarget "AnimeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +561,7 @@
 				C270B3E91F81AF2400483C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C270B3EA1F81AF2400483C5F /* Build configuration list for PBXNativeTarget "AnimeTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +570,7 @@
 				C270B3EC1F81AF2400483C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
